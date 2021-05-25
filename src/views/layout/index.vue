@@ -16,12 +16,12 @@
 
 <script>
 export default {
-    name: '',
+    name: 'LayoutIndex',
     components: {},
     props: {},
     data() {
         return {
-            
+            active: 0
         }
     },
     computed: {},

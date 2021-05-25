@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-// 加载全局样式
-import './styles/index.css'
+// 加载全局图标样式
+import './styles/icon.less'
 
 // 加载vant组件库
 import Vant from 'vant'
@@ -14,6 +14,11 @@ import 'vant/lib/index.css'
 
 // 自动加载rem基准值
 import 'amfe-flexible'
+
+// 加载全局样式
+import './styles/index.css'
+
+import  './utils/dayjs'
 
 // 全局注册vant 中的组件
 Vue.use(Vant)
